@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       useInheritedMediaQuery: true,
       designSize: const Size(1440, 720),
       builder: (context, child) => const MaterialApp(
-        title: 'Travel UI Landing Page',
+        title: 'Arch Treks & Safaris',
         // theme: ThemeData(),
-        home: HomePage(),
+        home: DestinationPage(),
       ),
     );
   }

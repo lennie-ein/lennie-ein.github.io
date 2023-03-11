@@ -30,7 +30,7 @@ class PopularDestinationItem extends StatelessWidget {
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16.r),
           border: Border.all(
-            color: Colors.white,
+            color: Colors.black26,
             width: 2,
           )),
       child: Column(

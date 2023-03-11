@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) => const MaterialApp(
         title: 'Arch Treks & Safaris',
         // theme: ThemeData(),
-        home: DestinationPage(),
+        home: HomePage(),
       ),
     );
   }

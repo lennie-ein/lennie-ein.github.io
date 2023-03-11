@@ -17,3 +17,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ARCHTREKS_SAFARIS }}'
           channelId: live
           projectId: archtreks-safaris
+  - name: Dependabot Auto Merge
+    uses: ahmadnassri/action-dependabot-auto-merge@v2.6.6

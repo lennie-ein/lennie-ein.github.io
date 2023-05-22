@@ -55,8 +55,8 @@ class _CustomerFeedbackState extends State<CustomerFeedback> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  width: 67.sm,
-                  height: 8.sm,
+                  width: 67,
+                  height: 8,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(4).w,
                     gradient: const LinearGradient(
